@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid violet;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+ul li {
+  margin: 0 30px;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/header-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header-content {
+  margin-bottom: 150px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.ctn {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: red;
+  border-radius: 30px;
+  padding: 8px 15px;
+}
+
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header-content h2 {
+  font-size: 4vmin;
+}
+
+.header-content .line,
+.events .line,
+.explore .line {
+  background-color: red;
+  width: 150px;
+  height: 4px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.header-content .ctn {
+  margin: 30px;
+}
+
+Section {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events h2 {
+  text-align: center;
+  font-size: 5vmin;
+}
+
+.row .col h4 {
+  text-align: center;
+  font-size: 3vmin;
+  margin: 20px;
+  color: rgb(40, 16, 95);
+}
+
+.row .col p {
+  color: gray;
+}
+
+.events .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events .ctn {
+  margin-top: 30px;
+}
+
+.events {
+  margin: 100px auto;
+}
+
+.explore {
+  background-image: url(./img/bg2.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.explore-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: whitesmoke;
+}
+
+.explore h1 {
+  font-size: 7vmin;
+}
+.explore p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.tours .row .col {
+  width: 50%;
+}
+
+.image-col {
+  width: 60%;
+}
+
+.tours .image-gallery {
+  display: flex;
+}
+
+.image-gallery img {
+  max-width: 250px;
+  margin: 10px;
+}
+
+.content-col {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.content-col h2 {
+  font-size: 7vmin;
+}
+
+.content-col .line {
+  background-color: red;
+  width: 150px;
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tours {
+  margin: 100px auto;
+}
+.tours .ctn {
+  margin: 0 auto;
+}
+.content-col .ctn {
+  margin-top: 20px;
+}
